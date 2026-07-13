@@ -440,12 +440,45 @@ print(
 OUTPUT = Path(
     r"C:\Users\User\Documents\Datos IA al ecosistema\Output_analisis\ocurrencias_palmas_enriquecido.csv"
 )
+# ==========================================================
+# Corregir codificación
+# ==========================================================
+
+# ==========================================================
+# Corregir problemas de codificación
+# ==========================================================
+
+def reparar_texto(valor):
+
+    if pd.isna(valor):
+        return valor
+
+    try:
+        return valor.encode("latin1").decode("utf-8")
+    except Exception:
+        return valor
+
+
+columnas_corregir = [
+    "departamento",
+    "municipio",
+    "resguardo",
+    "categoria_anp",
+    "nombre_anp"
+]
+
+for columna in columnas_corregir:
+
+    if columna in gdf.columns:
+
+        gdf[columna] = gdf[columna].apply(reparar_texto)
 
 gdf.to_csv(
     OUTPUT,
     index=False,
     encoding="utf-8-sig"
 )
+
 
 print()
 print("===========================================")
