@@ -30,12 +30,14 @@ ideam = pd.read_csv(
 
 ideam = ideam.rename(columns={"LEVEL_3":"municipio"})
 
-dataset = palmas.merge(
-    ideam,
+dataset = ideam.merge(
+    palmas,
     on="municipio",
-    how="inner"
+    how="left"
 )
-
+dataset["riqueza_palmas"] = dataset["riqueza_palmas"].fillna(0)
+dataset["bosque_pct"] = dataset["bosque_pct"].fillna(0)
+dataset["agro_pct"] = dataset["agro_pct"].fillna(0)
 dataset.to_csv(
     OUTPUT/"Dataset_IA_Municipios.csv",
     index=False,
@@ -47,7 +49,9 @@ print(dataset.head())
 # =====================================================
 # VARIABLES
 # =====================================================
-
+dataset = dataset[
+    dataset["municipio"] != "Área en Litigio"
+]
 X = dataset[[
     "riqueza_palmas",
     "bosque_pct",
@@ -138,10 +142,67 @@ X2026.columns = X.columns
 
 dataset["pred_alertas_2026"] = modelo.predict(X2026)
 
+# =====================================================
+# EXPORTAR CAPA GEOGRÁFICA
+# =====================================================
+
+import geopandas as gpd
+
+RUTA_MUNICIPIOS = (
+    r"C:\Users\User\Documents\MapBiomas Alerta Colombia"
+    r"\Unidades de analisis\nivel-politico-3\nivel-politico-3.shp"
+)
+
+municipios = gpd.read_file(RUTA_MUNICIPIOS,encoding="utf-8")
+
+municipios["LEVEL_3"] = municipios["LEVEL_3"].astype(str).str.strip()
+dataset["municipio"] = dataset["municipio"].astype(str).str.strip()
+
+resultado = municipios.merge(
+    dataset[[
+        "municipio",
+        "riqueza_palmas",
+        "bosque_pct",
+        "agro_pct",
+        "alertas_2020",
+        "alertas_2021",
+        "alertas_2022",
+        "alertas_2023",
+        "alertas_2024",
+        "alertas_2025",
+        "pred_alertas_2026"
+    ]],
+    left_on="LEVEL_3",
+    right_on="municipio",
+    how="left"
+)
+
+resultado["riesgo"] = pd.cut(
+    resultado["pred_alertas_2026"],
+    bins=[-1, 50, 200, 500, 1000, 100000],
+    labels=[
+        "Muy bajo",
+        "Bajo",
+        "Medio",
+        "Alto",
+        "Muy alto"
+    ]
+)
+
+resultado = resultado.drop(columns="municipio")
 dataset = dataset.sort_values(
     "pred_alertas_2026",
     ascending=False
 )
+resultado.to_file(
+    OUTPUT / "Municipios_Riesgo_Alertas_2026.gpkg",
+    driver="GPKG"
+)
+
+print("\nCapa geográfica exportada.")
+
+
+
 
 dataset.to_csv(
     OUTPUT/"Prediccion_alertas_2026.csv",
