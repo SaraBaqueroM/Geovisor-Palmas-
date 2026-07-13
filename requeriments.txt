@@ -1,0 +1,10 @@
+pandas
+numpy
+geopandas
+shapely
+matplotlib
+seaborn
+scikit-learn
+jupyter
+rasterio
+pygbif

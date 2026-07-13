@@ -1,0 +1,17 @@
+name: palmas-ia
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - geopandas
+  - matplotlib
+  - scikit-learn
+  - jupyter
+  - rasterio
+  - pip
+  - pip:
+      - pygbif
