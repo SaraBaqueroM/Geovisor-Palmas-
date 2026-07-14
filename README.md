@@ -4,7 +4,7 @@
 
 # <p align="center">
 
-# &#x20; <img src="RECURSOS/portada.png" width="1000">
+# &#x20; <img src="Recursos/portada.jpg" width="1000">
 
 # </p>
 
@@ -12,7 +12,9 @@
 
 # <p align="center">
 
-# \[!\[Geovisor](https://img.shields.io/badge/🌍%20Abrir-Geovisor-success?style=for-the-badge)](https://sarabaquerom.github.io/GeoPalmas---Oficial/)
+# 
+
+
 
 # \*\*Concurso Datos al Ecosistema 2026\*\*
 
