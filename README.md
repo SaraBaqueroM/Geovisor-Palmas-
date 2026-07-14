@@ -1,11 +1,10 @@
 # Identificación de municipios prioritarios para la conservación de palmas amenazadas mediante inteligencia artificial y datos abiertos en Colombia
 
 <p align="center">
-  <img src="Recursos/portada.png" width="1000">
+  <img src="Recursos/portada.jpg" width="850">
 </p>
 
 <p align="center">
-[![Geovisor](https://img.shields.io/badge/🌍%20Abrir-Geovisor-success?style=for-the-badge)](https://sarabaquerom.github.io/GeoPalmas---Oficial/)
 
 # 🌍 Geovisor interactivo
 
