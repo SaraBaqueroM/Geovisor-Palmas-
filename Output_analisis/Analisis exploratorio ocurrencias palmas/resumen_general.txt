@@ -1,8 +1,0 @@
-Registros: 13,303
-Especies: 51
-Géneros: 20
-Familias: 1
-Instituciones: 124
-Datasets: 121
-Año mínimo: 1853
-Año máximo: 2026
