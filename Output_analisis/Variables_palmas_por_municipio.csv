@@ -1,0 +1,375 @@
+﻿municipio,riqueza_palmas,bosque_pct,agro_pct
+San Francisco,10,54.05,45.95
+Acandí,9,83.33,16.67
+El Carmen,8,76.19,23.81
+San Luis,8,64.52,32.26
+San Carlos,8,81.82,18.18
+Sonsón,7,71.43,21.43
+Cali,7,39.87,37.97
+Cimitarra,7,63.33,36.67
+Medellín,7,30.0,40.0
+Puerto Nare,6,33.33,66.67
+Norcasia,6,5.88,94.12
+San Vicente de Chucurí,6,85.71,14.29
+Ríosucio,6,31.91,68.09
+Manizales,6,47.37,36.84
+Carmen de Viboral,6,100.0,0.0
+Amalfi,6,53.85,46.15
+Anorí,6,71.43,28.57
+Bucaramanga,5,16.67,50.0
+Puerto Boyacá,5,10.53,89.47
+Salento,5,39.82,52.21
+Tona,5,84.21,15.79
+Barrancabermeja,4,51.35,45.95
+Arcabuco,4,57.14,42.86
+Tuluá,4,28.57,71.43
+Bello,4,35.29,47.06
+"Bogotá, D.C.",4,21.15,21.15
+Palmira,4,33.33,66.67
+Toledo,4,80.0,20.0
+Támesis,4,50.0,50.0
+Turbaco,4,0.0,58.33
+Puerto Triunfo,4,18.6,81.4
+Ríonegro,4,28.57,57.14
+Cantagallo,4,100.0,0.0
+Santa Rosa de Cabal,4,57.97,15.94
+Pereira,4,53.66,14.63
+Girón,4,20.0,40.0
+La Dorada,4,11.11,88.89
+Guarne,4,16.67,66.67
+Santa Bárbara,4,62.5,0.0
+Santa Rosa de Osos,4,60.0,40.0
+Suaita,4,81.25,18.75
+San José de La Montaña,3,8.33,91.67
+Granada,3,0.0,80.0
+Frontino,3,42.86,57.14
+Pijao,3,25.0,50.0
+Betulia,3,71.43,28.57
+Zapatoca,3,22.22,22.22
+Unguía,3,75.0,25.0
+Tumaco,3,11.11,66.67
+Armenia,3,0.0,33.33
+San Juanito,3,86.49,13.51
+Puerto Salgar,3,2.94,97.06
+Gámbita,3,28.57,42.86
+Guaduas,3,25.0,75.0
+Agustín Codazzi,3,60.0,20.0
+Yarumal,3,0.0,100.0
+La Vega,3,66.67,33.33
+Turbo,3,6.52,89.13
+Tierralta,3,44.44,55.56
+Bahía Solano,3,66.67,0.0
+Belmira,3,38.46,0.0
+San Antonio del Tequendama,3,50.0,50.0
+Chaguaní,3,100.0,0.0
+Puerto Parra,3,16.67,75.0
+San Pedro de Urabá,3,77.78,22.22
+Circasia,3,0.0,100.0
+Santiago,3,80.0,20.0
+San Vicente,3,25.0,75.0
+Sahagún,3,0.0,100.0
+San Agustín,3,100.0,0.0
+Cajamarca,3,19.57,80.43
+Sasaima,3,0.0,92.31
+Puerto López,3,33.33,66.67
+Villanueva,3,54.55,45.45
+Jardín,3,77.78,22.22
+Montelíbano,3,36.36,63.64
+Juradó,3,100.0,0.0
+Victoria,2,100.0,0.0
+Tena,2,50.0,50.0
+Tauramena,2,97.96,2.04
+Trujillo,2,100.0,0.0
+Tolú,2,33.33,66.67
+Arauquita,2,16.67,83.33
+Argelia,2,50.0,50.0
+Turbana,2,0.0,100.0
+Barbacoas,2,100.0,0.0
+Vianí,2,0.0,100.0
+Venecia,2,0.0,100.0
+San Pablo,2,66.67,33.33
+San Pelayo,2,8.33,91.67
+Chimichagua,2,57.14,35.71
+Santa Isabel,2,50.0,0.0
+Chigorodó,2,0.0,100.0
+Caucasia,2,0.0,66.67
+Puerto Wilches,2,5.88,0.0
+Retiro,2,0.0,100.0
+El Bagre,2,33.33,0.0
+El Cerrito,2,67.74,29.03
+Samaná,2,100.0,0.0
+Envigado,2,50.0,50.0
+El Tambo,2,100.0,0.0
+San Luis de Palenque,2,91.67,8.33
+San José de Uré,2,33.33,66.67
+San José del Guaviare,2,100.0,0.0
+San Juan Nepomuceno,2,100.0,0.0
+Dibulla,2,50.0,50.0
+Copacabana,2,0.0,100.0
+Curumaní,2,8.33,91.67
+Dagua,2,33.33,33.33
+Cocorná,2,27.27,72.73
+San Onofre,2,1.15,98.85
+Segovia,2,0.0,50.0
+Sibundoy,2,54.55,36.36
+Calarcá,2,12.5,50.0
+Talaigua Nuevo,2,0.0,0.0
+Supia,2,0.0,100.0
+Carepa,2,0.0,95.65
+Sevilla,2,0.0,100.0
+Santa Marta,2,86.96,13.04
+Santa Rosa,2,33.33,33.33
+Pitalito,2,100.0,0.0
+Filandia,2,27.27,36.36
+Pore,2,50.0,50.0
+Pueblo Nuevo,2,25.0,75.0
+Puerto Gaitán,2,100.0,0.0
+Puerto Libertador,2,0.0,100.0
+Pajarito,2,50.0,50.0
+Palestina,2,0.0,50.0
+Guatapé,2,0.0,50.0
+Guasca,2,100.0,0.0
+Pasto,2,75.0,25.0
+Hato Corozal,2,63.16,36.84
+Hato,2,100.0,0.0
+Génova,2,25.0,75.0
+Paz de Ariporo,2,66.67,33.33
+Piedecuesta,2,50.0,50.0
+Garagoa,2,40.0,40.0
+Garzón,2,66.67,33.33
+Gamarra,2,0.0,0.0
+Florencia,2,100.0,0.0
+Mutatá,2,25.0,75.0
+Pacho,2,33.33,66.67
+Mistrató,2,100.0,0.0
+Montenegro,2,0.0,100.0
+Isnos,2,100.0,0.0
+Mosquera,2,0.0,100.0
+Jericó,2,0.0,100.0
+Nechí,2,0.0,0.0
+La Calera,2,71.43,14.29
+Junín,2,90.0,0.0
+Yondó,2,100.0,0.0
+Yopal,2,60.87,39.13
+La Plata,2,40.0,60.0
+Lebrija,2,50.0,50.0
+Marinilla,2,50.0,50.0
+Villavicencio,2,50.0,50.0
+Villa de Leiva,2,0.0,80.0
+Andes,2,50.0,50.0
+Acevedo,1,100.0,0.0
+Aguazul,1,100.0,0.0
+Amagá,1,0.0,100.0
+Andalucía,1,0.0,100.0
+Angostura,1,0.0,100.0
+Ansermanuevo,1,100.0,0.0
+Anzoátegui,1,0.0,100.0
+Apartadó,1,0.0,100.0
+Aranzazu,1,50.0,50.0
+Aratoca,1,0.0,100.0
+Arauca,1,100.0,0.0
+Vigía del Fuerte,1,100.0,0.0
+Vijes,1,0.0,100.0
+Villa Caro,1,100.0,0.0
+Villamaría,1,40.0,60.0
+Villeta,1,0.0,100.0
+Vistahermosa,1,0.0,100.0
+Viterbo,1,0.0,0.0
+Vélez,1,100.0,0.0
+Yalí,1,100.0,0.0
+Yotoco,1,0.0,0.0
+La Paz,1,100.0,0.0
+La Peña,1,0.0,100.0
+La Primavera,1,100.0,0.0
+La Tebaida,1,0.0,100.0
+La Victoria,1,50.0,50.0
+Landázuri,1,0.0,100.0
+Liborina,1,100.0,0.0
+Los Andes,1,0.0,100.0
+Los Córdobas,1,50.0,50.0
+Maceo,1,100.0,0.0
+Madrid,1,0.0,100.0
+Manaure Balcón del Cesar,1,100.0,0.0
+Maní,1,0.0,0.0
+Mariquita,1,0.0,33.33
+Marmato,1,100.0,0.0
+Marulanda,1,100.0,0.0
+María La Baja,1,0.0,100.0
+Miraflores,1,0.0,100.0
+Mocoa,1,100.0,0.0
+Momil,1,0.0,100.0
+Moniquirá,1,0.0,100.0
+Montería,1,0.0,100.0
+Ibagué,1,49.35,44.16
+Inzá,1,100.0,0.0
+Jamundí,1,0.0,100.0
+Juradó - Costa,1,0.0,0.0
+La Ceja,1,0.0,100.0
+La Cumbre,1,100.0,0.0
+La Estrella,1,0.0,100.0
+La Jagua de Ibirico,1,0.0,100.0
+La Jagua del Pilar,1,100.0,0.0
+Murillo,1,0.0,100.0
+Nariño,1,100.0,0.0
+Necoclí,1,0.0,100.0
+Neira,1,100.0,0.0
+Nocaima,1,100.0,0.0
+Norosí,1,0.0,0.0
+Nunchía,1,100.0,0.0
+Orocué,1,0.0,100.0
+Pachavita,1,0.0,100.0
+Guaca,1,0.0,100.0
+Guacarí,1,0.0,100.0
+Guadalupe,1,0.0,100.0
+Guapi,1,0.0,100.0
+Guayabal de Síquima,1,0.0,100.0
+Guayabetal,1,100.0,0.0
+Guática,1,0.0,100.0
+Herrán,1,0.0,100.0
+Paratebueno,1,0.0,0.0
+Pasca,1,0.0,100.0
+Paya,1,100.0,0.0
+Pedraza,1,0.0,0.0
+Pensilvania,1,100.0,0.0
+Peque,1,57.14,28.57
+Pesca,1,0.0,100.0
+Piojó,1,0.0,100.0
+Pivijay,1,33.33,66.67
+Planadas,1,100.0,0.0
+Facatativá,1,100.0,0.0
+Filadelfia,1,0.0,100.0
+Floridablanca,1,100.0,0.0
+Funza,1,0.0,100.0
+Fusagasugá,1,0.0,100.0
+Gachalá,1,0.0,100.0
+Galeras,1,0.0,100.0
+Girardota,1,0.0,100.0
+Providencia y Santa Catalina,1,86.96,8.7
+Providencia y Santa Catalina - Costa,1,100.0,0.0
+Puebloviejo,1,100.0,0.0
+Puerto Asís,1,100.0,0.0
+Puerto Leguízamo,1,0.0,100.0
+Quebradanegra,1,0.0,100.0
+Quimbaya,1,0.0,100.0
+Quinchía,1,0.0,100.0
+Restrepo,1,100.0,0.0
+Ricaurte,1,100.0,0.0
+Rio Quito,1,100.0,0.0
+Rio de Oro,1,80.0,20.0
+Roncesvalles,1,33.33,33.33
+Rondón,1,0.0,100.0
+Rovira,1,100.0,0.0
+Ríofrío,1,20.0,80.0
+Sabana de Torres,1,75.0,25.0
+Saboyá,1,0.0,100.0
+ETI Bajo Río Caquetá,1,75.0,25.0
+ETI Yaigojé Apaporis,1,100.0,0.0
+Ebéjico,1,0.0,100.0
+El Banco,1,0.0,100.0
+El Cairo,1,0.0,100.0
+El Carmen de Bolívar,1,0.0,100.0
+El Dovio,1,0.0,0.0
+El Guamo,1,0.0,0.0
+El Litoral del San Juán,1,100.0,0.0
+El Peñón,1,100.0,0.0
+El Rosal,1,0.0,100.0
+Saladoblanco,1,0.0,100.0
+Salamina,1,33.33,66.67
+Salgar,1,0.0,100.0
+San Alberto,1,50.0,50.0
+San Andrés,1,0.0,100.0
+San Benito Abad,1,0.0,100.0
+San Cayetano,1,0.0,100.0
+San Jacinto,1,60.0,20.0
+San Jacinto del Cauca,1,0.0,100.0
+Colombia,1,100.0,0.0
+Colosó,1,100.0,0.0
+Concordia,1,100.0,0.0
+Consacá,1,100.0,0.0
+Cota,1,0.0,100.0
+Cravo Norte,1,100.0,0.0
+Cubará,1,100.0,0.0
+Cáceres,1,100.0,0.0
+Cáchira,1,0.0,100.0
+Córdoba,1,66.67,33.33
+Duitama,1,100.0,0.0
+San José del Palmar,1,100.0,0.0
+San Marcos,1,0.0,50.0
+San Martín,1,0.0,100.0
+San Martín de Loba,1,0.0,0.0
+Cereté,1,0.0,100.0
+Cerinza,1,0.0,0.0
+Chalán,1,100.0,0.0
+Chaparral,1,100.0,0.0
+Charalá,1,100.0,0.0
+Chima,1,0.0,100.0
+Chinavita,1,0.0,100.0
+Chinú,1,0.0,100.0
+Ciénaga,1,90.91,0.0
+Ciénaga de Oro,1,50.0,50.0
+Santa Rosa del Sur,1,100.0,0.0
+Santo Domingo,1,0.0,100.0
+Santuario,1,0.0,100.0
+Silvania,1,0.0,100.0
+Caicedonia,1,100.0,0.0
+Calima,1,50.0,50.0
+Campohermoso,1,100.0,0.0
+Canalete,1,50.0,50.0
+Caparrapí,1,50.0,50.0
+Caramanta,1,33.33,66.67
+Carmen del Darién,1,100.0,0.0
+Carolina,1,0.0,100.0
+Cartagena de Indias,1,100.0,0.0
+Cartago,1,0.0,100.0
+Simacota,1,50.0,50.0
+Sincelejo,1,60.0,40.0
+Sincé,1,0.0,100.0
+Sipí,1,100.0,0.0
+Soacha,1,0.0,100.0
+Soatá,1,0.0,100.0
+Sotaquirá,1,100.0,0.0
+Subachoque,1,100.0,0.0
+Supatá,1,0.0,100.0
+Suratá,1,100.0,0.0
+Tame,1,100.0,0.0
+Tarazá,1,0.0,100.0
+Belén de Los Andaquíes,1,0.0,100.0
+Betania,1,100.0,0.0
+Bochalema,1,100.0,0.0
+Bojacá,1,0.0,100.0
+Bolívar,1,100.0,0.0
+Boyacá,1,0.0,0.0
+Buenaventura,1,100.0,0.0
+Buenavista,1,0.0,100.0
+Buga,1,50.0,41.67
+Bugalagrande,1,0.0,100.0
+Caicedo,1,100.0,0.0
+Tarqui,1,0.0,100.0
+Tenerife,1,50.0,0.0
+Tenjo,1,0.0,100.0
+Tibú,1,0.0,0.0
+Tiquisio,1,0.0,100.0
+Tocaima,1,0.0,100.0
+Toluviejo,1,0.0,100.0
+Tota,1,0.0,0.0
+Arboledas,1,100.0,0.0
+Arboletes,1,0.0,100.0
+Ayapel,1,0.0,100.0
+Bajo Baudó,1,100.0,0.0
+Balboa,1,50.0,50.0
+Barbosa,1,0.0,100.0
+Barranca de Upía,1,60.0,20.0
+Becerril,1,0.0,100.0
+Belalcazar,1,0.0,0.0
+Támara,1,50.0,50.0
+Ulloa,1,0.0,100.0
+Unión Panamericana,1,0.0,0.0
+Uribe,1,100.0,0.0
+Urrao,1,25.0,75.0
+Valledupar,1,100.0,0.0
+Vergara,1,0.0,100.0
+Yumbo,1,0.0,100.0
+Abejorral,1,100.0,0.0
+Zaragoza,1,100.0,0.0
+Zona Bananera,1,90.0,10.0
+Área en Litigio,1,0.0,100.0

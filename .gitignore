@@ -1,26 +1,52 @@
-Output_analisis/
-Data/
-data/
+
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambientes virtuales
+venv/
+.env
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ==========================
+# Archivos GIS pesados / temporales
+# ==========================
+
+# Shapefile auxiliares
+*.dbf
+*.shx
+*.sbn
+*.sbx
+*.prj
+*.cpg
+
+# GeoPackage (normalmente pesados)
+*.gpkg
+
+# Comprimidos
+*.zip
+*.7z
+*.rar
+*.json
+*.geojson
+# ==========================
+# Raster
+# ==========================
 
 *.tif
 *.tiff
 
-*.shp
-*.dbf
-*.shx
-*.prj
-*.cpg
-*.sbn
-*.sbx
+!data/external/*.tif
 
-*.gpkg
-
-*.zip
-*.7z
-*.rar
-
-__pycache__/
-*.pyc
-
+# ==========================
+# QGIS temporales
+# ==========================
 *.qgz
 *.qgs
