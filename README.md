@@ -159,7 +159,7 @@ Este proyecto se distribuye bajo la licencia incluida en el archivo **LICENSE**.
 
 Proyecto desarrollado para el **Concurso Datos al Ecosistema 2026**.
 
-**Equipo:**
+**Equipo 302:**
 
 - Santiago Baquero
 - Sara Yineth Baquero
