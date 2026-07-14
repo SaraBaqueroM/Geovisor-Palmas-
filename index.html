@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GeoPalmas Colombia</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Leaflet -->
+    <link rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+    <!-- Marker Cluster -->
+    <link rel="stylesheet"
+        href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"/>
+
+    <link rel="stylesheet"
+        href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"/>
+
+</head>
+
+<body>
+
+<div class="contenedor">
+
+    <!-- ===================== -->
+    <!-- MENÚ LATERAL -->
+    <!-- ===================== -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            <h2>GeoPalmas</h2>
+
+            <p>Geovisor de Palmas de Colombia</p>
+
+        </div>
+
+        <h3>Filtros</h3>
+
+        <label>Especie</label>
+
+        <select id="filtroEspecie">
+            <option value="">Todas las especies</option>
+        </select>
+
+        <br><br>
+
+        <label>Departamento</label>
+
+        <select id="filtroDepartamento">
+            <option value="">Todos</option>
+        </select>
+
+        <br><br>
+
+        <label>Estado de amenaza</label>
+
+        <select id="filtroCobertura">
+            <option value="">Todos</option>
+        </select>
+
+        <br><br>
+
+        <label>Año</label>
+
+        <select id="filtroAnio">
+            <option value="">Todos</option>
+        </select>
+
+    </aside>
+
+    <!-- ===================== -->
+    <!-- CONTENIDO -->
+    <!-- ===================== -->
+
+    <main class="contenido">
+
+        <header>
+
+            <h1>GeoPalmas Colombia</h1>
+
+            <p>
+                Sistema de información geográfica para la exploración,
+                análisis y conservación de las palmas de Colombia.
+            </p>
+
+        </header>
+
+        <!-- ===================== -->
+        <!-- TARJETAS -->
+        <!-- ===================== -->
+
+        <section class="tarjetas">
+
+            <div class="card">
+
+                <h3>Registros únicos</h3>
+
+                <h2 id="totalRegistros">--</h2>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Departamentos</h3>
+
+                <h2 id="totalDepartamentos">--</h2>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Especies</h3>
+
+                <h2 id="totalEspecies">--</h2>
+
+            </div>
+
+            <div class="card">
+
+    <h3>Especies en estado crítico</h3>
+
+    <h2 id="totalCriticas">--</h2>
+
+</div>
+
+        </section>
+
+        <!-- ===================== -->
+        <!-- MAPA -->
+        <!-- ===================== -->
+
+        <section class="mapa">
+
+            <div id="map"></div>
+
+        </section>
+
+        <!-- ===================== -->
+        <!-- DASHBOARD -->
+        <!-- ===================== -->
+
+       <section class="dashboard">
+
+    <div class="grafica-card">
+
+        <h3>Registros por año</h3>
+
+        <canvas id="graficaAnio"></canvas>
+
+    </div>
+
+    <div class="grafica-card">
+
+        <h3>Top departamentos</h3>
+
+        <canvas id="graficaDepartamentos"></canvas>
+
+    </div>
+
+    <div class="grafica-card">
+
+        <h3>Top especies</h3>
+
+        <canvas id="graficaEspecies"></canvas>
+
+    </div>
+
+    <div class="grafica-card">
+
+        <h3>Estado de amenaza</h3>
+
+        <canvas id="graficaAmenaza"></canvas>
+
+    </div>
+
+</section>
+<div class="creditos">
+
+    <strong>GeoPalmas Colombia</strong> | Proyecto de investigación para el análisis espacial de especies de palmas de Colombia.
+
+    <br>
+
+    Desarrollado por Sara Yineth Baquero Montañez • Santiago Baquero Castillo
+
+    <br>
+
+    Datos: GBIF • Datos Abiertos Colombia (datos.gov.co)
+
+    <br>
+
+    Leaflet • Chart.js • JavaScript • HTML5 • CSS3 • GeoJSON | © 2026
+
+</div>
+
+    </main>
+
+    <!-- ===================== -->
+    <!-- PANEL DERECHO -->
+    <!-- ===================== -->
+
+    <aside class="panel">
+
+        <h2>Información de la especie</h2>
+
+        <p>
+
+            Seleccione un registro en el mapa para visualizar la información detallada de la especie.
+
+        </p>
+
+    </aside>
+
+</div>
+
+<!-- ===================== -->
+<!-- LIBRERÍAS -->
+<!-- ===================== -->
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+<!-- ===================== -->
+<!-- SCRIPTS -->
+<!-- ===================== -->
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="js/ficha.js"></script>
+<script src="js/filtros.js"></script>
+<script src="js/app.js"></script>
+<script src="js/graficas.js"></script> 
+<script src="js/capas.js"></script>
+
+</body>
+
+</html>
