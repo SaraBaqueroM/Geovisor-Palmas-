@@ -12,7 +12,7 @@ Los resultados del proyecto pueden explorarse mediante un geovisor web desarroll
 
 🔗 **Acceder al geovisor:**
 
-https://sarabaquerom.github.io/GeoPalmas---Oficial/
+https://sarabaquerom.github.io/Geovisor-Palmas/
 
 El geovisor permite visualizar:
 
@@ -54,6 +54,7 @@ El proyecto integra información proveniente de fuentes oficiales y de acceso ab
 - Fotografías descargadas automáticamente desde iNaturalist.
 - Alertas Tempranas de Deforestación del IDEAM (2017–2025).
 - Límites administrativos municipales de Colombia.
+- MapBiomas Colombia Cobertura y Uso del Suelo Colección 3 
 
 ---
 
