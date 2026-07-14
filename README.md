@@ -1,354 +1,354 @@
-# \# Identificación de municipios prioritarios para la conservación de palmas amenazadas mediante inteligencia artificial y datos abiertos en Colombia
+\# Identificación de municipios prioritarios para la conservación de palmas amenazadas mediante inteligencia artificial y datos abiertos en Colombia
 
-# 
 
-# <p align="center">
 
-# &#x20; <img src="Recursos/portada.jpg" width="1000">
+<p align="center">
 
-# </p>
+&#x20; <img src="Recursos/portada.jpg" width="1000">
 
-# 
+</p>
 
-# <p align="center">
 
-# 
 
+<p align="center">
 
 
-# \*\*Concurso Datos al Ecosistema 2026\*\*
 
-# 
 
-# Proyecto desarrollado utilizando datos abiertos, análisis espacial e inteligencia artificial para apoyar la conservación de la biodiversidad en Colombia.
 
-# 
+\*\*Concurso Datos al Ecosistema 2026\*\*
 
-# </p>
 
-# 
 
-# \# 🌍 Geovisor interactivo
+Proyecto desarrollado utilizando datos abiertos, análisis espacial e inteligencia artificial para apoyar la conservación de la biodiversidad en Colombia.
 
-# 
 
-# Los resultados del proyecto pueden explorarse mediante un geovisor web desarrollado con tecnologías abiertas y publicado utilizando \*\*GitHub Pages\*\*.
 
-# 
+</p>
 
-# 🔗 \*\*Acceder al geovisor:\*\*
 
-# 
 
-# https://sarabaquerom.github.io/GeoPalmas---Oficial/
+\# 🌍 Geovisor interactivo
 
-# 
 
-# El geovisor permite visualizar:
 
-# 
+Los resultados del proyecto pueden explorarse mediante un geovisor web desarrollado con tecnologías abiertas y publicado utilizando \*\*GitHub Pages\*\*.
 
-# \- Riesgo municipal de generación de alertas de deforestación para 2026.
 
-# \- Municipios con registros de palmas amenazadas.
 
-# \- Variables utilizadas por el modelo de inteligencia artificial.
+🔗 \*\*Acceder al geovisor:\*\*
 
-# \- Información descriptiva por municipio.
 
-# \---
 
-# 
+https://sarabaquerom.github.io/GeoPalmas---Oficial/
 
-# \# Descripción
 
-# 
 
-# Este proyecto integra información abierta sobre biodiversidad y monitoreo ambiental para identificar municipios con mayor riesgo de generación de alertas de deforestación y analizar su relación con la presencia de palmas amenazadas en Colombia.
+El geovisor permite visualizar:
 
-# 
 
-# Para ello se combinaron registros de ocurrencia de especies obtenidos desde GBIF, el listado oficial de especies amenazadas de Colombia, las Alertas Tempranas de Deforestación del IDEAM correspondientes al periodo 2017–2025 y variables territoriales derivadas mediante análisis espacial.
 
-# 
+\- Riesgo municipal de generación de alertas de deforestación para 2026.
 
-# A partir de esta información se desarrolló un modelo de aprendizaje automático basado en Random Forest que permitió estimar el riesgo municipal de generación de alertas para 2026.
+\- Municipios con registros de palmas amenazadas.
 
-# 
+\- Variables utilizadas por el modelo de inteligencia artificial.
 
-# \---
+\- Información descriptiva por municipio.
 
-# 
+\---
 
-# \# Objetivo
 
-# 
 
-# Desarrollar un flujo de trabajo reproducible que integre datos abiertos de biodiversidad y monitoreo forestal mediante técnicas de inteligencia artificial para apoyar la priorización territorial de acciones de conservación.
+\# Descripción
 
-# 
 
-# \---
 
-# 
+Este proyecto integra información abierta sobre biodiversidad y monitoreo ambiental para identificar municipios con mayor riesgo de generación de alertas de deforestación y analizar su relación con la presencia de palmas amenazadas en Colombia.
 
-# \# Fuentes de datos
 
-# 
 
-# El proyecto integra información proveniente de fuentes oficiales y de acceso abierto:
+Para ello se combinaron registros de ocurrencia de especies obtenidos desde GBIF, el listado oficial de especies amenazadas de Colombia, las Alertas Tempranas de Deforestación del IDEAM correspondientes al periodo 2017–2025 y variables territoriales derivadas mediante análisis espacial.
 
-# 
 
-# \- Listado oficial de especies silvestres amenazadas de Colombia (Resolución 0126 de 2024).
 
-# \- Registros de ocurrencia de especies obtenidos desde GBIF.
+A partir de esta información se desarrolló un modelo de aprendizaje automático basado en Random Forest que permitió estimar el riesgo municipal de generación de alertas para 2026.
 
-# \- Fotografías descargadas automáticamente desde iNaturalist.
 
-# \- Alertas Tempranas de Deforestación del IDEAM (2017–2025).
 
-# \- Límites administrativos municipales de Colombia.
+\---
 
-# 
 
-# \---
 
-# 
+\# Objetivo
 
-# \# Metodología
 
-# 
 
-# El desarrollo siguió un flujo de trabajo basado en CRISP-ML:
+Desarrollar un flujo de trabajo reproducible que integre datos abiertos de biodiversidad y monitoreo forestal mediante técnicas de inteligencia artificial para apoyar la priorización territorial de acciones de conservación.
 
-# 
 
-# 1\. Comprensión del problema.
 
-# 2\. Recolección e integración de datos.
+\---
 
-# 3\. Limpieza y preparación de información.
 
-# 4\. Ingeniería de variables espaciales.
 
-# 5\. Entrenamiento de un modelo Random Forest.
+\# Fuentes de datos
 
-# 6\. Evaluación del modelo.
 
-# 7\. Generación de productos cartográficos.
 
-# 8\. Publicación de un geovisor mediante GitHub Pages.
+El proyecto integra información proveniente de fuentes oficiales y de acceso abierto:
 
-# 
 
-# \---
 
-# 
+\- Listado oficial de especies silvestres amenazadas de Colombia (Resolución 0126 de 2024).
 
-# \# Tecnologías utilizadas
+\- Registros de ocurrencia de especies obtenidos desde GBIF.
 
-# 
+\- Fotografías descargadas automáticamente desde iNaturalist.
 
-# \- Python
+\- Alertas Tempranas de Deforestación del IDEAM (2017–2025).
 
-# \- Pandas
+\- Límites administrativos municipales de Colombia.
 
-# \- GeoPandas
 
-# \- Scikit-learn
 
-# \- Matplotlib
+\---
 
-# \- QGIS
 
-# \- Git
 
-# \- GitHub
+\# Metodología
 
-# \- GitHub Pages
 
-# 
 
-# \---
+El desarrollo siguió un flujo de trabajo basado en CRISP-ML:
 
-# 
 
-# \# Productos generados
 
-# 
+1\. Comprensión del problema.
 
-# El proyecto genera los siguientes productos:
+2\. Recolección e integración de datos.
 
-# 
+3\. Limpieza y preparación de información.
 
-# \- Dataset consolidado para aprendizaje automático.
+4\. Ingeniería de variables espaciales.
 
-# \- Variables espaciales por municipio.
+5\. Entrenamiento de un modelo Random Forest.
 
-# \- Predicción municipal de riesgo de alertas para 2026.
+6\. Evaluación del modelo.
 
-# \- Modelo Random Forest entrenado.
+7\. Generación de productos cartográficos.
 
-# \- Capa geográfica en formato GeoPackage.
+8\. Publicación de un geovisor mediante GitHub Pages.
 
-# \- Geovisor web interactivo.
 
-# \- Documentación técnica completamente reproducible.
 
-# 
+\---
 
-# \---
 
-# 
 
-# \# Geovisor
+\# Tecnologías utilizadas
 
-# 
 
-# El geovisor interactivo permite explorar:
 
-# 
+\- Python
 
-# \- municipios con mayor riesgo de generación de alertas;
+\- Pandas
 
-# \- registros de palmas amenazadas;
+\- GeoPandas
 
-# \- información descriptiva por municipio;
+\- Scikit-learn
 
-# \- resultados del modelo de inteligencia artificial.
+\- Matplotlib
 
-# 
+\- QGIS
 
-# \*\*Geovisor:\*\*
+\- Git
 
-# 
+\- GitHub
 
-# \*(Agregar aquí la URL de GitHub Pages una vez publicado.)\*
+\- GitHub Pages
 
-# 
 
-# \---
 
-# 
+\---
 
-# \# Estructura del repositorio
 
-# 
 
-# ```
+\# Productos generados
 
-# docs/
 
-# RECURSOS/
 
-# Scripts/
+El proyecto genera los siguientes productos:
 
-# Output\_analisis/
 
-# README.md
 
-# requirements.txt
+\- Dataset consolidado para aprendizaje automático.
 
-# environment.yml
+\- Variables espaciales por municipio.
 
-# LICENSE
+\- Predicción municipal de riesgo de alertas para 2026.
 
-# ```
+\- Modelo Random Forest entrenado.
 
-# 
+\- Capa geográfica en formato GeoPackage.
 
-# La documentación técnica completa del proyecto se encuentra disponible en la carpeta \*\*docs/\*\*.
+\- Geovisor web interactivo.
 
-# 
+\- Documentación técnica completamente reproducible.
 
-# \---
 
-# 
 
-# \# Reproducibilidad
+\---
 
-# 
 
-# Todos los análisis fueron desarrollados utilizando herramientas de código abierto.
 
-# 
+\# Geovisor
 
-# Las dependencias necesarias para reproducir el proyecto se encuentran en:
 
-# 
 
-# \- requirements.txt
+El geovisor interactivo permite explorar:
 
-# \- environment.yml
 
-# 
 
-# La guía completa de ejecución puede consultarse en:
+\- municipios con mayor riesgo de generación de alertas;
 
-# 
+\- registros de palmas amenazadas;
 
-# ```
+\- información descriptiva por municipio;
 
-# docs/validacion\_guide.md
+\- resultados del modelo de inteligencia artificial.
 
-# ```
 
-# 
 
-# \---
+\*\*Geovisor:\*\*
 
-# 
 
-# \# Licencia
 
-# 
+\*(Agregar aquí la URL de GitHub Pages una vez publicado.)\*
 
-# Este proyecto se distribuye bajo la licencia incluida en el archivo \*\*LICENSE\*\*.
 
-# 
 
-# \---
+\---
 
-# 
 
-# \# Autores
 
-# 
+\# Estructura del repositorio
 
-# Proyecto desarrollado para el \*\*Concurso Datos al Ecosistema 2026\*\*.
 
-# 
 
-# \*\*Equipo 302:\*\*
+```
 
-# 
+docs/
 
-# \- Santiago Baquero
+RECURSOS/
 
-# \- Sara Yineth Baquero 
+Scripts/
 
-# 
+Output\_analisis/
 
-# \---
+README.md
 
-# 
+requirements.txt
 
-# \# Agradecimientos
+environment.yml
 
-# 
+LICENSE
 
-# Se agradece a las entidades que ponen a disposición información abierta para investigación y conservación de la biodiversidad en Colombia, especialmente:
+```
 
-# 
 
-# \- Ministerio de Ambiente y Desarrollo Sostenible.
 
-# \- IDEAM.
+La documentación técnica completa del proyecto se encuentra disponible en la carpeta \*\*docs/\*\*.
 
-# \- GBIF.
 
-# \- iNaturalist.
 
-# \- Datos.gov.co.
+\---
+
+
+
+\# Reproducibilidad
+
+
+
+Todos los análisis fueron desarrollados utilizando herramientas de código abierto.
+
+
+
+Las dependencias necesarias para reproducir el proyecto se encuentran en:
+
+
+
+\- requirements.txt
+
+\- environment.yml
+
+
+
+La guía completa de ejecución puede consultarse en:
+
+
+
+```
+
+docs/validacion\_guide.md
+
+```
+
+
+
+\---
+
+
+
+\# Licencia
+
+
+
+Este proyecto se distribuye bajo la licencia incluida en el archivo \*\*LICENSE\*\*.
+
+
+
+\---
+
+
+
+\# Autores
+
+
+
+Proyecto desarrollado para el \*\*Concurso Datos al Ecosistema 2026\*\*.
+
+
+
+\*\*Equipo 302:\*\*
+
+
+
+\- Santiago Baquero
+
+\- Sara Yineth Baquero 
+
+
+
+\---
+
+
+
+\# Agradecimientos
+
+
+
+Se agradece a las entidades que ponen a disposición información abierta para investigación y conservación de la biodiversidad en Colombia, especialmente:
+
+
+
+\- Ministerio de Ambiente y Desarrollo Sostenible.
+
+\- IDEAM.
+
+\- GBIF.
+
+\- iNaturalist.
+
+\- Datos.gov.co.
 
